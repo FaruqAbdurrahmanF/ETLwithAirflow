@@ -1,7 +1,3 @@
-Berikut adalah template README yang bisa Anda gunakan untuk proyek *ETL Data Automation using Airflow, MySQL, and PostgreSQL* pada GitHub:
-
----
-
 # ETL Data Automation using Airflow, MySQL, and PostgreSQL
 
 This project demonstrates an automated ETL pipeline using Apache Airflow to extract data from MySQL, load it into PostgreSQL, perform data aggregation, and send the results via email. The process is scheduled to run daily at specific times to ensure the most recent data is available for analysis.
