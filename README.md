@@ -39,10 +39,6 @@ The ETL process consists of three DAGs that handle different stages of the pipel
 2. **Aggregation DAG**: Aggregates the data for key metrics such as sales, quantity, and profit.
 3. **Report DAG**: Sends the daily report via email containing the aggregated metrics.
 
-### Data Flow Diagram
-![Data Flow Diagram](path_to_diagram)  
-_A visual representation of how data moves from MySQL to PostgreSQL, including aggregation and reporting._
-
 ## Data Understanding
 The project uses a **Store Sales Forecasting** dataset. The data includes the following attributes:
 - **Sales**: Total sales amount for each transaction.
